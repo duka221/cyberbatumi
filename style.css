@@ -19,8 +19,8 @@ body{
 }	
      /*head*/
 .header{
-background: rgb(255,253,253);
-background: linear-gradient(90deg, rgba(255,253,253,0.7483368347338936) 1%, rgba(241,241,241,1) 5%, rgba(210,208,208,1) 16%, rgba(255,255,255,1) 82%, rgba(242,242,242,0.9023984593837535) 98%);
+  background: rgb(255,253,253);
+  background: linear-gradient(90deg, rgba(255,253,253,0.7483368347338936) 1%, rgba(241,241,241,1) 5%, rgba(210,208,208,1) 16%, rgba(255,255,255,1) 82%, rgba(242,242,242,0.9023984593837535) 98%);
 	font-size: 17px;
 	text-align: left;
 	display: flex;
@@ -97,16 +97,22 @@ background: linear-gradient(90deg, rgba(255,253,253,0.7483368347338936) 1%, rgba
 	margin-right: 15px;
 }
 
-.cities{
+.personal{
 	margin:auto;
 	display: flex;
 	justify-content: space-between;
 	padding-top: 20px;
 }
-.cities-item img{
+.personal-item img{
 	max-width: 200px;
 	max-height: 200px;
 	display: block;
+}
+.CV{
+  text-align: center;
+  color: black;
+  margin-top:10px;
+  margin-bottom: 10px;
 }
 
 	
@@ -317,7 +323,7 @@ input[type=submit]:hover {
   .header-nav{
   	margin:0;
   }
-  .cities{
+  .personal{
   	display: grid;
   	grid-template-columns: auto auto auto;
 
@@ -366,7 +372,7 @@ input[type=submit]:hover {
 
 }
  @media only screen and (max-width: 750px){
- 	.cities{
+ 	.personal{
  		grid-template-columns: auto auto;
  	}
  	.header-nav-item a:hover{
@@ -375,7 +381,7 @@ input[type=submit]:hover {
 	}
  }
  @media only screen and (max-width: 430px){
- 	.cities{
+ 	.personal{
  		display: table;
  		margin: auto;
  	}
